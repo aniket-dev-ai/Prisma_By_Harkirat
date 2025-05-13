@@ -14,3 +14,12 @@ model User {
   password String
   age      Int
 }
+
+model todos {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  Title       String
+  description String
+  done        Boolean
+  UserId      String
+  time        DateTime @default(now())
+}

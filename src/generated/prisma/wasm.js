@@ -120,6 +120,15 @@ exports.Prisma.UserScalarFieldEnum = {
   age: 'age'
 };
 
+exports.Prisma.TodosScalarFieldEnum = {
+  id: 'id',
+  Title: 'Title',
+  description: 'description',
+  done: 'done',
+  UserId: 'UserId',
+  time: 'time'
+};
+
 exports.Prisma.SortOrder = {
   asc: 'asc',
   desc: 'desc'
@@ -132,7 +141,8 @@ exports.Prisma.QueryMode = {
 
 
 exports.Prisma.ModelName = {
-  User: 'User'
+  User: 'User',
+  todos: 'todos'
 };
 
 /**
